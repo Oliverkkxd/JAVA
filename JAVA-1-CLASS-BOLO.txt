@@ -1,0 +1,21 @@
+//Criando a class bolo
+class Bolo {
+    String sabor;
+    boolean recheio;
+    //Método
+    void informacoes(){
+        System.out.println(sabor);
+        System.out.println(recheio);
+    }
+}
+
+public class main{
+    public static void main (String[] args){
+        
+        Bolo bolo1 = new Bolo();
+        bolo1.sabor = "Laranja";
+        bolo1.recheio = true;
+        
+        bolo1.informacoes();
+    }
+}
